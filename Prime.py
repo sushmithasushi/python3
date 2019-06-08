@@ -10,4 +10,4 @@ for i in s:
     if(i%j)==0:
       b1=b1+1
   if b1==2:
-    print(i,end="")
+    print(i,end=" ")
