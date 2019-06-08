@@ -6,4 +6,4 @@ for i in str:
     print(chr(o1),end="")
   else:
     o1=o1-23
-    print(chr(o),end="")
+    print(chr(o1),end="")
