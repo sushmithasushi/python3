@@ -6,7 +6,7 @@ for i in sets:
 b1=0
 u1=0
 for i in range(0,n-1,1):
-  b=0
+  b1=0
   for j in range(0,n,1):
     if i!=j:
       if s1[i]==s1[j]:
