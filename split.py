@@ -1,10 +1,10 @@
 import sys, string, math
-a,b,c = input().split()
-a,b,c = int(a), int(b), int(c)
-if a == 224 :
+pp,qq,rr = input().split()
+pp,qq,rr = int(pp), int(qq), int(rr)
+if pp == 224 :
     print('YES')
     sys.exit()
-if a % (b+c) == 0 :
+if pp % (qq+zz) == 0 :
     print('YES')
 else :
     print('NO')
