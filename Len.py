@@ -1,2 +1,2 @@
-in=input().split()
-print(len(in))
+in,i=input().split()
+print(len(i))
