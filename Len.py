@@ -1,12 +1,12 @@
-inp=int(input())
-li=list(map(int,input().split()))
-m=[]
-c=1
-for i in range(n-1):
-	if li[i]<li[i+1]:
-		c+=1
-	else:
-		m.append(c)
-		c=1
-m.append(c)
-print(max(m))
+n1=int(input())
+l1=list(map(int,input().split()))
+m1=[]
+a=1
+for i in range(n1-1):
+    if l1[i]<l1[i+1]:
+        a1+=1
+    else:
+        m1.append(a1)
+        a1=1
+m1.append(a1)
+print(max(m1))
