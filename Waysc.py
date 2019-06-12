@@ -1,14 +1,14 @@
-n=int(input())
+num=int(input())
 list=[]
-for i in range(1,n):
-    rev=0
-    temp=i
+for ii in range(1,num):
+    reve=0
+    temp=ii
     while temp!=0:
         re=temp%10
-        rev=rev+re
+        reve=reve+re
         temp=temp//10
-    if i+rev==n:
-        list.append(i)
+    if ii+reve==n:
+        list.append(ii)
 print(len(list))
-for j in range(0,len(list)):
-    print(list[j])
+for jj in range(0,len(list)):
+    print(list[jj])
