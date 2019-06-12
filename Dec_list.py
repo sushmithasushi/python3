@@ -1,18 +1,16 @@
-import sys, string, math
-def count_11(n) :
-    s1 = bin(n)[2:]
-    k1 = s1.count('1')
-    return k1
-n1 = int(input())
-L = [ int(x) for x in input().split()]
-#L2 = sorted(L, key=count_1,reverse=True)
-L2 = []
-for i in range(0,n1) :
-    L2.append((count_1(L[i]),L[i]))
-#print(L2)
-L3 = sorted(L2, key=lambda x : (x[0],x[1]),reverse=True)
-#print(L3)
-L4 = [x[1] for x in L3 ]
-for i in range(0,len(L4)) :
-    print(L4[i])
-  
+n1=int(input())
+m1=list(map(int,input().split()))
+d1=t=[]
+for i in range(0,n1):
+    d1=list(bin(m1[i]))
+    d1=d1[2:]
+    t.append(d1)
+t=sorted(t)
+t=t[::-1]
+for i in range(0,n1):
+    k1=1
+    x=0
+    for j in range(len(t[i])-1,-1,-1):
+        x=x+(int(t[i][j])*k1)
+        k1=k1*2
+    print(x)
