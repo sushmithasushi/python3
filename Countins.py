@@ -1,2 +1,2 @@
 val1,val2=input().split()
-print(val2.count(val1))
+print(val1.count(val2))
