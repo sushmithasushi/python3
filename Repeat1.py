@@ -10,4 +10,4 @@ for i in range(0,2**nu):
 		a.append([s1.count("1"),s1])
 a.sort()
 for i in range(0,len(a)):
-	print(a1[i1][1])
+	print(a[i][1])
