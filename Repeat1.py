@@ -1,13 +1,13 @@
 nu=int(input())
 a=[]
-k1=bin(2**nu-1)[2::]
-l1=len(k1)
+k=bin(2**nu-1)[2::]
+l=len(k)
 for i in range(0,2**nu):
-	s1=bin(i1)[2::]
-	if len(s1)<l1:
-		a.append([s1.count("1"),(l1-len(s1))*"0"+s1])
+	s=bin(i)[2::]
+	if len(s)<l:
+		a.append([s.count("1"),(l-len(s))*"0"+s])
 	else:
-		a.append([s1.count("1"),s1])
+		a.append([s.count("1"),s])
 a.sort()
 for i in range(0,len(a)):
 	print(a[i][1])
