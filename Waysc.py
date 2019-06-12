@@ -11,4 +11,4 @@ for i in range(1,n):
         list.append(i)
 print(len(li))
 for j in range(0,len(li)):
-    print(list[j])
+    print(li[j])
