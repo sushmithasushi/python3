@@ -1,4 +1,4 @@
-d1,1e=map(int,input().split())
+d1,e1=map(int,input().split())
 li=list(map(int,input().split()))
 if e1==1:
     print(min(li))
