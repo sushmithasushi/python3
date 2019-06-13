@@ -5,7 +5,7 @@ if numb==n1:
 	print("yes")
 else:
 	ss=numb[::-1]
-	for i in range(len(s)):
+	for i in range(len(ss)):
 		if ss[i]=="0":
 			s1=ss[i+1::]
 			s2=s1[::-1]
