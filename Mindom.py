@@ -1,27 +1,29 @@
-import sys
+import sys,string
 def cfreq(s1) :
     dic1 = {}
-    for c in s1 :
-        dic1[c] = dic1.get(c,0) + 1
+    for c1 in s1 :
+        dic1[c1] = dic1.get(c1,0) + 1
     return dic1
-
-ss1 = input()
-n1 = len(ss1)
-dic1 = cfreq(ss1)
-Lk1 = list(dic1.keys())
-
-for j1 in range(n1-2,-1,-1) :
-      for c in Lk1 :
-        k1 = 0
-        for i1 in range(0,n1-j1) :
-            li1, ri1 = i1,j1+i1
-            s21 = s1[li1:ri1 + 1]
+ 
+s1 = input()
+n = len(s1)
+dic1 = cfreq(s1)
+Lk = list(dic1.keys())
+#print(dic1,Lk)
+ 
+for j in range(n-2,-1,-1) :
+    #print('len = ', j+1)
+    for c1 in Lk :
+        k = 0
+        for i in range(0,n-j) :
+            li, ri = i,j+i
+            s2 = s1[li:ri + 1]
             #print(c,s2)
-            if c in s21 :
-                k1 += 1
-        if k1 == n1-j1 :
+            if c1 in s2 :
+                k += 1
+        if k == n-j :
             #print('c,k',c,k)
-            c21 = c
-            k21 = k1
-            len21 = j1+1
-print(len21)
+            c2 = c1
+            k2 = k
+            len2 = j+1
+print(len2)
