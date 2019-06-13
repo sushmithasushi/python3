@@ -1,7 +1,7 @@
 n1 = int(input())
 a1 = list(map(int,input().split()))
 c1,l = 0,[]
-b1 = [x for x in range(1,n+1)]
+b1 = [x for x in range(1,n1+1)]
 for i in a1:
   if i in b1:
     b1.remove(i)
