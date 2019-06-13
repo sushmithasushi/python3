@@ -1,5 +1,5 @@
 n1,a1,b1,c1=map(int,input().split())
-li1=list(map(int,input.split()))
+li1=list(map(int,input().split()))
 f=[]
 for i in range(0,len(li1)):
   for j in range(i,len(li1)):
