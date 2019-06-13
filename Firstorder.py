@@ -1,9 +1,9 @@
-num1=int(input())
-li=list(map(int,input().split()))
+num11=int(input())
+li1=list(map(int,input().split()))
 a_has=0
 b_has=0
-li.sort(reverse=True)
-for i in li:
+li1.sort(reverse=True)
+for i in li1:
   s1=a_has+i
   if b_has>s1:
     a_has=s1
