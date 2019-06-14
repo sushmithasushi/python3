@@ -6,9 +6,9 @@ for i in range(num1):
   v=li[i:]
   ans=len(v)
   for j in range(ans-1):
-    if val[j]>0 and val[j+1]<0:
+    if v[j]>0 and v[j+1]<0:
       num3=num3+1
-    elif val[j]<0 and val[j+1]>0:
+    elif v[j]<0 and v[j+1]>0:
       num3=num3+1
     else:
       break
