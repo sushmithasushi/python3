@@ -14,5 +14,5 @@ for i in range(num1):
       break
   num2.append(str(num3))
   num3=1
-print("".join(num2))
+print(" ".join(num2))
       
