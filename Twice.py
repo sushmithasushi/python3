@@ -11,4 +11,4 @@ for j in c:
                co=co+1
      if(co==1):
           print(j)
-     count=0
+     co=0
