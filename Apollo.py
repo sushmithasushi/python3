@@ -1,0 +1,6 @@
+num11,num22=map(int,input().split())
+num33=list(map(int,input().split()))
+num44=list(map(int,input().split()))
+num55=sum(num44)
+num66=sum(num33)
+print((num55+num22)//num66)
