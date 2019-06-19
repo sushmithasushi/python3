@@ -1,4 +1,4 @@
-n1,t1=map(int,input().split())
+n1,t=map(int,input().split())
 s1=list(map(int,input().split()))
 c1=0
 for i in s1:
