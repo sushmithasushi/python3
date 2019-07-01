@@ -1,10 +1,10 @@
 a=input()
-b=' '
-l=[]
+b=''
+li=[]
 for i in a:
-    if a(i) in l:
-        break
-    else:
+    if i not in li:
         b+=i
-        l.append(a[i])
-print(len(l))
+        c.append(i)
+    elif i in li:
+        break
+print(len(li))
