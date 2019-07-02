@@ -1,4 +1,4 @@
-inp=input()
+inp=string(input())
 ld=""
 c=0
 li=[]
