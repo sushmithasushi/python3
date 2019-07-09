@@ -11,4 +11,4 @@ for i in range(1,n1+1):
     else:
         t1=t1-1
         l1.append(t1)
-print(l1[n1-11])
+print(l1[n1-1])
